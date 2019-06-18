@@ -1,0 +1,20 @@
+{
+    "name": "Temperatur.nu",
+    "version": "1.33",
+    "slug": "temperatur_nu",
+    "description": "Rapportera temperatur till Temperatur.nu",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "application",
+    "boot": "auto",
+    "homeassistant_api": true,
+    "options": {
+        "hash": "",
+        "entity": "",
+        "interval": 300
+    },
+    "schema": {
+        "hash": "str",
+        "entity": "str",
+        "interval": "int"
+    }
+}
